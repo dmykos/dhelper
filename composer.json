@@ -1,0 +1,21 @@
+{
+    "name": "dmykos/dhelper",
+    "description": "var_dump wrapper",
+    "authors": [
+        {
+            "name": "Dmytro Kosto",
+            "email": "dmykos@gmail.com"
+        }
+    ],  
+    "require-dev": {
+        "kint-php/kint": "*"
+    },
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": { 
+            "dmykos\\dhelper\\": ["src"]
+        }
+    }
+}
