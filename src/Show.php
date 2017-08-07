@@ -1,11 +1,11 @@
 <?php
 
-namespace dmykos\dhelper\helper;
+namespace dmykos\dhelper;
 
 
 class Show
 {
-	public static function showDump($var,$commented=false)
+	public static function show($var,$commented=false)
 	{
 
 		print ($commented ? '<!--pre>' : '<pre>');
@@ -13,7 +13,7 @@ class Show
 		print ($commented ? '</pre-->' : '</pre>');
 	}
 
-	public static function showxDump($var,$commented=false) {
-		self::showDump($var,$commented);exit;
+	public static function showx($var,$commented=false) {
+		self::show($var,$commented);exit;
 	}
 }

@@ -1,8 +1,7 @@
 <?php
 
-require_once(__DIR__."/vendor/autoload.php");
+//require_once(realpath(dirname(__FILE__).'/../..')."/autoload.php");
 
-//use dmykos\dhelper\helper\Showx;
 
 if (!function_exists('showx')) {
 	/**
@@ -10,7 +9,7 @@ if (!function_exists('showx')) {
 	 */
 	function showx($var, $commented=false)
 	{
-		dmykos\dhelper\helper\Show::showxDump($var, $commented);
+		dmykos\dhelper\Show::showx($var, $commented);
 	}
 
 
@@ -21,7 +20,7 @@ if (!function_exists('show')) {
 	 */
 	function show($var, $commented=false)
 	{
-		dmykos\dhelper\helper\Show::showDump($var, $commented);
+		dmykos\dhelper\Show::show($var, $commented);
 	}
 
 
