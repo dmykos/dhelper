@@ -4,14 +4,13 @@ require_once(__DIR__."/vendor/autoload.php");
 
 //use dmykos\dhelper\helper\Showx;
 
-
 if (!function_exists('showx')) {
 	/**
 	 * Alias of Show::showx().
 	 */
 	function showx($var, $commented=false)
 	{
-		\dmykos\dhelper\Show::showx($var, $commented);
+		dmykos\dhelper\helper\Show::showxDump($var, $commented);
 	}
 
 
@@ -22,7 +21,7 @@ if (!function_exists('show')) {
 	 */
 	function show($var, $commented=false)
 	{
-		\dmykos\dhelper\Show::show($var, $commented);
+		dmykos\dhelper\helper\Show::showDump($var, $commented);
 	}
 
 
