@@ -16,6 +16,6 @@
         "psr-4": { 
             "dmykos\\dhelper\\": ["src"]
         },
-        "files": ["dmykos/dhelper/main.php"]
+        "files": ["main.php"]
     }
 }
